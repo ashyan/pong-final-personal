@@ -56,7 +56,7 @@ header a {
   width: 100%;
   margin: 20px 0;
   align-items: center;
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -93,6 +93,7 @@ header a {
 }
 
 #filter-update-button {
+  display: block;
   width: 100%;
 }
 

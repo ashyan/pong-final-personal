@@ -7,7 +7,7 @@
  */
 //$ = require('jQuery');
 
-/*
+
 document.getElementById('filter-update-button').addEventListener('click', function() {
     var textContent = document.getElementById("filter-text").value.toLowerCase();
     $.ajax({
@@ -15,11 +15,5 @@ document.getElementById('filter-update-button').addEventListener('click', functi
 		type: 'POST',
 		data: {newText: textContent}
 	});
-        
-        
-        success:function(){
-            alert("worked");
-        }
 
 });
-*/
