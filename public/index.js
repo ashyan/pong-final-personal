@@ -7,17 +7,19 @@
  */
 //$ = require('jQuery');
 
+/*
 document.getElementById('filter-update-button').addEventListener('click', function() {
     var textContent = document.getElementById("filter-text").value.toLowerCase();
     $.ajax({
-        url:'/update-text',
-        type:'post',
-        data: {newText: textContent}
+		url: '/update-text',
+		type: 'POST',
+		data: {newText: textContent}
+	});
         
-        /*
+        
         success:function(){
             alert("worked");
         }
-        */
-    });
+
 });
+*/
